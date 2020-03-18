@@ -575,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S9NA92HG5E;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TallestTowers/Info.plist;
@@ -595,6 +596,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				DEVELOPMENT_TEAM = S9NA92HG5E;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TallestTowers/Info.plist;
@@ -699,6 +701,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9NA92HG5E;
+				"CODE_SIGN_IDENTITY[sdk=macos*]" = "Apple Development";
 				INFOPLIST_FILE = TallestTowersScreenshots/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -719,6 +722,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S9NA92HG5E;
+				"CODE_SIGN_IDENTITY[sdk=macos*]" = "Apple Development";
 				INFOPLIST_FILE = TallestTowersScreenshots/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
