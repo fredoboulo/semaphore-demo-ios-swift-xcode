@@ -4,7 +4,7 @@
 # The docs are available on https://docs.fastlane.tools/actions/match
 
 storage_mode('git')
-git_url('https://github.com/fredoboulo/semaphore-credentials.git')
+git_url('git@github.com:fredoboulo/semaphore-credentials.git')
 
 username('frederic.delechamp@gmail.com')
 
